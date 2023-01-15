@@ -152,7 +152,7 @@ nav
 
 .features-details-section
 {
-    padding: 130px 240px;
+    padding: 130px 240px 54px 240px;
     display: flex;
     gap: 54px;
 }
@@ -230,4 +230,63 @@ nav
 {
     font-size: 65px;
     font-weight: 700;
+}
+
+.facts-section
+{
+    width: 55%;
+    padding: 0px 240px;
+    display: flex;
+    flex-direction: column;
+}
+
+.facts-title
+{
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--dark01);
+    margin-bottom: 24px;
+}
+
+.facts-description
+{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.facts-items-section
+{
+    padding: 100px 290px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    text-align: center;
+}
+
+.facts-item
+{
+    padding: 45px;
+    border: 1px solid var(--orange);
+    border-radius: 10px;
+}
+
+.facts-item img
+{
+    margin: 10px 0;
+}
+
+.facts-item h1
+{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--dark02);
+}
+
+.facts-item p
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--dark03);
+    margin-bottom: 20px;
 }
