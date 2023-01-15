@@ -86,7 +86,6 @@ nav
     font-size: 16px;
     font-weight: 400;
     color: var(--dark03);
-    margin-bottom: 30px;
 }
 
 .primary-btn
@@ -98,7 +97,7 @@ nav
     color: var(--white);
     border: 0;
     border-radius: 10px;
-    margin-bottom: 50px;
+    margin: 30px 0px 50px 0;
 }
 
 .hero-image
@@ -106,3 +105,47 @@ nav
     margin-bottom: 50px;
 }
 
+
+/* start features section */
+.features-section
+{
+    padding: 78px 301px;
+    display: flex;
+    gap: 73px;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-image
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.features-title
+{
+    font-size: 45px;
+    font-weight: 500;
+    color: var(--dark03);
+    margin-bottom: 24px;
+}
+
+.color-dark01
+{
+    color: var(--dark01);
+    font-weight: 700;
+}
+
+.color-dark02
+{
+    color: var(--orange);
+    font-weight: 700;
+}
+
+.features-description
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dark03);
+}
