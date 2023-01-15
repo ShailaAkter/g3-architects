@@ -560,6 +560,11 @@ nav
     padding-top: 25px;
 }
 
+.logo
+{
+    font-size: 45px;
+}
+
 .hero-section
 {
     display: flex;
@@ -570,9 +575,13 @@ nav
 
 .hero-text
 {
-    padding: 125px 50px 0 50px;
+    padding: 125px 0px;
 }
 
+.hero-title
+{
+    font-size: 40px;
+}
 
 /* start features section */
 .features-section
